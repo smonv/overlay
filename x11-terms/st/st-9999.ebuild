@@ -41,7 +41,7 @@ src_prepare() {
 		-i Makefile || die
 	tc-export CC
 
-	epatch "${FILESDIR}/${PN}-hidecursor-20160727-308bfbf.diff"
+	# epatch "${FILESDIR}/${PN}-hidecursor-20160727-308bfbf.diff"
 
 	restore_config config.h
 }
